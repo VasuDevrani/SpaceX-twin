@@ -1,0 +1,32 @@
+.footer{
+    position: relative;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 1.3rem 0;
+}
+.footer-text{
+    color: #979797;
+}
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 0.7rem;
+    padding-top: 0.7rem;
+    list-style-type: none;
+}
+.footer-list li{
+    margin: 0 10px 10px 0;
+}
+.footer-list-link{
+    font-weight: 600;
+    transition: color 1s cubic-bezier(0.25, 1, 0.25, 1);
+}
+.footer-list-link:hover{
+    color: #8b939b;
+}
